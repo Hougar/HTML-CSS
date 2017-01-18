@@ -1,0 +1,33 @@
+<!DOCTYPE html>  - Tells the browse that this is an HTML document  - Document type decleration DTD ( not a tag or element 0)
+<html lang="en">  - html opening tab begins here  - ROOT element    - language is english
+<head> - HTML <head> element provides general information (metadata) about the document, including its title and links to its scripts and style sheets.
+  <meta charset="UTF-8" /> - put in additional information
+  <title> HEY THERE</title> - sets up the area on the tab
+</head>
+<body>
+  EVERYTHING THAT THE USER SEES - SHOWN IN THE VIEWPOINT
+</body>
+</html>  - closing html tag - ends here
+
+Elements vs. tags
+  Elements
+    1. Doctype
+    2. html  - opening and closing area
+    3. head - provides metadata (title + links to style sheet )
+    4. body - everything the user sees
+  Tags
+  1. <> have the inequality signs - html , body & head, title - need opening <> and closing </> tags
+  2. Self closing tage - i.e. <meta> no longer need /> due to HTML 5
+    <meta>
+    <link>
+    <hr>
+    <br>
+    <input>
+    <source>
+    <embed>
+    <param>
+    <wbr>
+
+Nesting tags
+- <body> & <head> tags are nested under <html> tag  - html is the parent, head & body are the child - sibilings are   body & head
+- <meta> and <title> inside the <head> - head is the ancestor & meta/title are the descendants

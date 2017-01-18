@@ -1,0 +1,18 @@
+Unix commands
+  cd // change directrory
+  cd ~ // brings you to your home directory
+  pwd // print working directory
+  clear // clear shell
+  ls // list what is in the directory
+  ls - la // show hidden documents
+  rm "file namte" // deletes the document
+  rm -rf "folder name" // remove recursively with force - everything in file gets removed
+  mkdir // make a "folder"
+  cat // prints to the terminal what is in the file
+
+Git Commands
+  git init
+  git status
+  git add --all
+  git status
+  git commmit

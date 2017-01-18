@@ -1,0 +1,54 @@
+ HTTP status codes
+  Response from the server when somebody makes a request
+  HTTP 100 - info
+  HTTP 200 - everything is ok
+  HTTP 300 - moved permanently
+  HTTP 404 - page not found
+
+Developer tools > network tab in chrome - see the responses
+  Right click -> Inspect -> brings you to the HTML - can double click in the webpage to bring up the specific HTLM
+
+  Throttle webpage - what will the experience be of my webpage if its slower? internet connection '''
+
+
+Materials vs. Tools
+
+Resources: goo.gl/YJTNed
+  MDN - go to source - best source for web documentation
+    Google : MDN XXXXX
+  Good podcast : the web ahead
+
+Internet - network of communication lines the HARDWARE
+WWW  - The "software" - the service that runs on the hardward of the internet
+
+Browser - converts HTTP code  -  transfers HTML (Hyper text markup language- formatting !) and turns it into the interface!
+
+ Documentation
+  MDN
+  Can i use?
+  Stack overflow
+  codepen.io
+  CSS tricks - flex blox
+  The web ahead - developers
+
+
+  How to web works - client server archecture
+    1. Browser makes a request
+    2. Server - responds
+      Just a computer running a specific software
+    3. Browser  - renders the HTML
+
+    There is a header and a body both in the request and the response
+      Header
+        Holds Get, Post & communication info between browser and server
+      Body
+        Holds the payload - CSS & HTML & form data
+
+    Dark web - TOR onion browsers for illegal stuff
+
+  IDE's - Atom & Webstorm - Intergrative development enviroments - work with emmet !
+  Emmet - in codepen
+    ex. ! tab - all the html code for an emmet document
+    http://docs.emmet.io/cheat-sheet/
+    Gives a preview of what your HtmL looks like
+    If you see SCSS - click view compile to turn it into CSS

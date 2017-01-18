@@ -1,0 +1,63 @@
+HTML - Hyper Text Mark Up Language - the structure
+  semantic tags - within the <body> -> understand what is going on instead of <div>
+    <header> </header>
+    <section>
+      <article> </article>
+    </section>
+
+    <aside></aside>
+
+    <footer></footer>
+
+CSS - cascading Style Sheets - for the format
+ connect to html through
+<link rel="stylesheet" href="main.cs                                                                              s" - link CSS to HTML
+
+  Rule set
+    Selector
+      Declaration block
+        Declaration
+          Sets a property to a value
+
+          Rule set example
+          header {                   - TAG SELECTOR - THERE CAN BE OTHER TYPES OF SELECTORS
+          width:100%;                - {} DECLERATION BLOCK
+          height: 100px;             - DECLERATION PROPERTY: VALUE;
+          background-color: red;
+          }
+
+  Multiple CSS selectors - allowed !
+    Can have 1 rule set with mutiple CSS selectors
+    * - selects all elements ( wild card)
+
+
+
+  Linking CSS to HTML
+    1. External stylesheet
+        Preferred method
+        <link rel="stylesheet" href="main.css">
+    2. Internal styles
+        <style> </style> - creating a small document and testing it out
+    3. Inline styles
+        Least preferred = dont worry about it ...
+
+
+JS - Java Script - the functionality
+  client side functionality i.e. checking if 2 instances of the password match
+
+A separation of concerns - put different things in different areas
+
+Client side languages
+  HTML
+  CSS
+  JS
+
+Server side languages
+  New
+    GO !!!
+    Node
+    Ruby
+    Jango
+  Old
+    PHP
+    ASP

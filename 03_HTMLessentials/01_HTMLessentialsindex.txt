@@ -1,0 +1,36 @@
+1. File naming conventions
+    a. All HTML files should end with the .HTML extension (to start)
+    b. All stylesheets should end with a .CSS extension
+    c. Your Yhomepage should be named index.html
+    d. Your main stylesheet = main.css
+    e. Only use lower case & o-9 -> NO spaces! _ if you have to a " " = %20
+
+2. Folder naming conventions
+  a. Lowercase  alphanumeric only
+  b. no spaces
+  c. make folder groups best on seperation of concerns
+      i.   HTML - structure - rypically sitting out
+      ii.  CSS - Formatting
+      iii. JS - functionality
+  d. pic vs. image
+      image - make website pretty
+        .png
+        .gif
+        .svg
+      pic - view it
+        .jpeg
+
+3. Essential tags
+    i.   Header element
+    ii.  Paragraph element
+    iii. Unordered list element
+    iv.  Ordered list
+4. Emmet.io
+5. Tag attributes
+    i.   Link element
+    ii.  Image element
+    iii. Anchor element
+    iv.  Paragraph element
+6. Relative vs. Absolute URLS
+7. Comments
+8. Hands on Excercises

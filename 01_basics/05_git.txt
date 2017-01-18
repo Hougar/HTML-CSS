@@ -1,0 +1,28 @@
+Branch Master
+  Repository
+    Local                         --- CONECT USING 7b/c -->
+    Remote - called origin
+      Where everyone gets their code
+
+
+Create a local git repo
+  1, Make sure your remote repo on github name = folder name for local repo
+  2. Add a gitignore file
+    i. Make sure hidden files are shown
+    ii. everything in an hidden starts with .gitignore
+    3. git init // should be in the file
+    4. git status
+    5. git add - into staging index
+      i file name
+      ii --all // all files in repo
+      iii . // everything thats changed below my working directory
+    6. git commit -m "this is a meessage which will appear on github & is required"
+    7. git log // shows a log of all my commits
+      7b.Go onto github - create a new repo the same name as your local file - REMOTE
+      7c.git remote add origin github.com/... (URL where repo made) First time only - REMOTE
+    8. git push
+        -u origin master for first time
+
+How to delete a repo
+  1. rm -rf folde rname
+  2. Github.com>Myaccount> repositories>therepo>settigns>dangerzone>iunderstand
