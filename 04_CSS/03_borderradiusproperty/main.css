@@ -1,0 +1,16 @@
+div {
+  width: 400px;
+  height: 400px;
+  border: 2px solid red;
+  /*border-radius: 35px;*/
+  /*border-radius: 40px;*/
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg");
+  background-size: cover; /* centers the sun */
+  background-repeat: no no-repeat;
+}
+
+img {
+  border-radius:100%;
+
+
+}

@@ -26,11 +26,21 @@
     iii. Unordered list element
     iv.  Ordered list
 4. Emmet.io
-5. Tag attributes
+5. Tag attributes>attributes have values
     i.   Link element
     ii.  Image element
     iii. Anchor element
     iv.  Paragraph element
-6. Relative vs. Absolute URLS
+6. Relative vs. Absolute
+    i.Relative-Since these files are in the same directory - relative to where the html file is
+      <link rel="stylesheet" href="main.css">
+      <img src="puppy.jpg">
+      <img src="folder/puppy.jpg">
+      <img src="../folder/folder/file.jpg"> to go up a directory
+    ii.Absolute
+
 7. Comments
+   1) Read your code
+   2) Explain your code
+   3) dont write too many or too few
 8. Hands on Excercises

@@ -1,0 +1,27 @@
+/*
+Rule set
+  Selector
+    Decleration block
+      Declerations
+        Property value
+
+*/
+
+div {
+  width: 100px;
+  /*if you comment out the width it takes up the entire width of the page*/
+  height: 100px;
+  border: 1px solid red;
+}
+
+.onedog: {
+  border: 1000px groove orangered ;
+}
+.twodog: {
+  border: 1000px dashed orangered ;
+}
+.threedog: {
+  border: 1000px dotted orangered ;
+}
+
+/*all img got selected by the im selector but the .class overwrote the format! - css specificity*/

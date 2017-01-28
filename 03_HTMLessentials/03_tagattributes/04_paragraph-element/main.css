@@ -1,0 +1,10 @@
+.happiness {
+  color: red;
+  font-size: 400px;
+  margin-left: 400px;
+}
+
+/*
+The period in css -- in the html file look for the class happiness
+Any tag with the class happniess will have th following formatting 
+ */
