@@ -1,0 +1,23 @@
+
+div {
+  height: 100px;
+  width: 100px;
+  border: 5px solid red;
+  margin: 10px
+}
+
+img {
+  border: 5px solid red;
+  border-radius: 40%;
+  padding: 100px
+}
+
+
+/*
+
+Box model - everythign on web is a box
+1 Content: auto x auto
+2 padding - space between content and border - push content out
+3 border
+4 margin - add space between elements
+*/

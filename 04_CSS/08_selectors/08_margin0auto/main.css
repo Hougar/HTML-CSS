@@ -1,0 +1,32 @@
+* {
+  border: 1px dashed grey;
+}
+   /* * - selects everything*/
+html {
+  border: 1px dashed red;
+}
+
+body {
+  border: 1px dashed fuchsia;
+}
+
+div {
+  height: 200px;
+  border: 5px solid black;
+}
+
+/* margin centre 0 for centering things*/
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 10px solid red;
+  padding: 10px;
+}
+
+/* margin:: X Y
+  X = top & botoom
+  Y = L & R
+  img is an inline element therefore margin does not work on img alone add display block decleration - since in line element will now behave as a block level element
+  img a block level element but the border is only being applied to the img and not the entire row like div ( just applied to content)
+*/

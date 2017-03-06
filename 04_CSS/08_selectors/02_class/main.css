@@ -1,0 +1,9 @@
+
+.emphasis {
+  color: red;
+}
+
+/*
+Any selector that starts with . is for a class selector
+do not nameit red name it emphasis cause maybe you want to change it to blue
+*/

@@ -1,0 +1,9 @@
+/* did this element receive the users focus
+form input & buttons
+*/
+
+a:focus {
+  color: fuchsia;
+}
+
+/* same result as active    */

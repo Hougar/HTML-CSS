@@ -1,0 +1,27 @@
+
+/*div p {
+  font-size: 24px;
+  text-align: center;
+}*/
+  /*
+  select all <p> under <div>
+  notice how only 1 - 4 selected since these are under div
+  */
+
+/*div > p {
+  font-size: 24px;
+  text-align: center;
+}*/
+  /*any p tag which is an immediate child of the div - i.e. #4 since under section is not selected*/
+
+/*div ~ p {
+  font-size: 24px;
+  text-align: center;
+}*/
+  /* any p tag immediately following a div tag*/
+
+div + p {
+  font-size: 24px;
+  text-align: center;
+}
+  /*any paragraph imeediately following the div - only 005 */

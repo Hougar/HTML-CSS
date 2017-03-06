@@ -1,0 +1,15 @@
+/*
+allow us to format a specific nth child of a parent
+*/
+
+body {
+  font-size: 24px;
+}
+
+li:last-child {
+  color: red;
+}
+
+ul:last-child{
+  background-color: yellow;
+}

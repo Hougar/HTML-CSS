@@ -1,0 +1,13 @@
+article:only-child {
+  background-color: red;
+}
+
+/*formats only children with 0 siblings i.e. only children */
+
+.one {
+  font-size: 120%;
+}
+
+.two {
+  font-style: italic;
+}

@@ -1,0 +1,33 @@
+Order
+  The one that wins is the last one applied
+  Only the declarations are overwritten
+  order matters
+  order for which you link css in html also matters - top to bottom just like css files
+  order of the classes applied in the HTML does not matter
+
+Specificity
+  which rule set will the browser render when you have conflicts - the one with the highest   specificity !
+  css specificity calculator will let you know !
+  0 0 0 0
+     element or pseudo element adds 1
+     class, attribute or pseudo class adds 10
+     id adds 100
+     inline style adds 1000
+  Specificity matters
+
+HTML                            CSS             specificity
+p class blue red                p {}                      1
+                                .blue{}                  10 X
+                                .red{}                   10
+                                #red{}                  100
+
+<ul id="summer-drinks">         .fav {}                  10
+  <li class="fav"> XXXXX </li>  ul#summer-drinks li{} 1+100+1 ->cmp selector
+  <li> XXXX </li>
+  <li> XXXX </li>
+</ul>
+
+cmp selector's
+  ul #summer-drinks -> any ul elements which has a descendent with an id of summer-drinks
+  ul#summer-drinks  ->  any ul elements with the id of summer-drinks
+s

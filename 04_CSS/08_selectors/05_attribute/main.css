@@ -1,0 +1,36 @@
+/*
+select specific attributes in the tags
+anything with the href attribute is seleted
+*/
+
+[contenteditable]{
+color: red;
+border: 1px dashed black;
+}
+
+[href]{
+color: cyan;
+border: 2px dashed black;
+}
+
+
+[src]{
+color: blue;
+border: 3px dashed black;
+}
+
+body {
+  font-size: 36px;
+  text-align: center;
+}
+
+[target=_blank] {
+  color:purple;
+}
+
+/*only the attrribute target with the value _blank will be selected*/
+
+
+
+
+/* contenteditable is a attribute can edit directly */

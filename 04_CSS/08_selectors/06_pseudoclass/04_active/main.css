@@ -1,0 +1,25 @@
+
+input{
+font-size: 2rem;
+margin-top: 4px;
+border: 1px solid darkgrey;
+}
+
+[type=submit] {
+  margin-top: 10px;
+  border: 1px darkgrey;
+}
+
+[type=submit]:hover {
+  background-color: #00FF00;
+}
+
+[type=submit]:active {
+  background-color: fuchsia;
+}
+/*IF its a link use active pseudo - if its a property use focus*/
+
+input:required {
+  border:4px dashed red;
+  background-color: rgba(255,182, 193, 0.13);
+}

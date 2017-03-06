@@ -1,0 +1,75 @@
+/*
+the font property is a shorthand for other properties - made up of 6 other properties
+  font
+    1 font-style
+    2 font-variant
+    3 font-weight
+    4 font-size
+    5 line-height
+    6 font-family
+*/
+
+#font-family {
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* must include at least 1 generic value i.e sans -serif use commas to seperate options*/
+}
+
+#font-size {
+  font-size: 1.5rem;
+  /*ONLY USE REM AND OCCASIONALLY VW */
+    /*REM = root m - typography how wide is m?*/
+    /*vw when you want the font size to adjust when the window size changes viewport width*/
+}
+
+#font-weight {
+font-weight:900;
+/*bold or not*/
+}
+
+#font-style {
+  font-style: oblique;;
+  /*oblique or italic*/
+}
+
+#font-variant {
+font-variant: small-caps;
+}
+
+#text-transform {
+  text-transform: uppercase;;
+}
+
+#line-height {
+  line-height:2rem;
+}
+#googlefont {
+font-family: 'Architects Daughter', cursive;
+/* see style sheet link in HTML DL from google */
+/* consider the KB should be 700-800KB average is 2400KB dont want to slow down users*/
+}
+
+#text-align {
+  text-align: center;
+  /* works on any inline contents ie img & p - div is a block level element  */
+}
+
+#text-shadow{
+  text-shadow:0.1rem -0.3rem 0.3rem blue;
+  /*offset-x|offset-y|blur radius|colour*/
+}
+
+#text-decoration {
+  text-decoration:  overline;
+  /*use text-decoration: none to get rid of underline's in HYPERLINKS - anchor tag
+ do not use an <s> element - hold out from 15 years ago <del> similiarly just strike it through rather than creating a new tag for it*/
+}
+
+#text-indent {
+  text-indent: 1rem;
+  /* by default just the first line*/
+}
+
+#max-width {
+  max-width: 1rem;
+  /* try also min & just width */
+}

@@ -1,0 +1,17 @@
+#id{
+  color: red;
+}
+
+.class {
+  color:cyan;
+}
+
+p {
+  color: black;
+}
+
+[href] {
+  color: blue;
+}
+
+/* id > class = attribute (order when specificity is equal )> element selector *s/

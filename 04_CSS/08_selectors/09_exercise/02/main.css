@@ -1,0 +1,14 @@
+#three {
+  color: red;
+}
+
+.red {
+  color: blue;
+  font-size: 22px;
+}
+
+a[target] {
+  color: fuchsia;
+  font-size: 22px;
+  border: 2px solid;
+}
