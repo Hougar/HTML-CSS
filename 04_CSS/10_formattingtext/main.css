@@ -71,5 +71,5 @@ font-family: 'Architects Daughter', cursive;
 
 #max-width {
   max-width: 1rem;
-  /* try also min & just width */
+  /* try also min & just width - max is adaptable to smaller screen sizes */
 }

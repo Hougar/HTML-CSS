@@ -1,0 +1,62 @@
+Document Structure - Terminology
+  Semantic HTML
+    HTML that has Meaning
+  Structure vs. Layout
+    structure - how your HTML code flows
+    Layout - how you webpage flows
+  Document Object Model (DOM)
+    A Model of your objects in your document
+  Document flow
+    Default display: Block O and Inline Level Elements
+      Block level entire width
+      Inline part of the width
+  Content
+    List of ALL element tags - https://developer.mozilla.org/en/docs/Web/HTML/Element
+    Sectioning - semantic
+      <address>
+      <article>
+        must always be able to stand on their own
+        self contained composition
+          independently distributable or reusable
+        ex.
+          forum post
+          newspaper article
+          blog entry
+          user review
+          an object
+          any other independent item or content
+        articles can be nested within articles
+      <aside>
+        ads
+        tangential content
+      <footer>
+        any element that accepts flow content can accept footer
+      <h1-h6>
+      <header>
+        group, introductory content or navigational aids
+          may contain heading elements, logo
+        must not be a > of <header>,<footer> or <address>
+        <head>, headings - <h1 - h6>, <header> - block level container
+        < <nav> good place for it
+      <group>
+      <main>
+        main content of the body of the page - unique to the document
+        exclude content that is repetitive
+        only 1 per page doc
+      <nav>
+        navigation bar on the top "home etc."
+        major blocks of navigation links
+      <section>
+        block sections
+        do not use a section element as a generic container
+        section cant stand on there own
+    Sectioning - non semantic
+      <div>
+        block level
+      <span>
+        inline leel
+    Categories
+      https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories
+  HTML5 Algorithm - DONT USE IT !
+
+Semantic HTML
