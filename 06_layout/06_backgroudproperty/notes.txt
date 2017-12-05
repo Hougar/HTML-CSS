@@ -1,0 +1,14 @@
+Background property
+  Shorthand - do not use confusing!
+
+Use:
+  Background-image
+  Background-position
+  Background-size
+  Background-repeat
+  Background-attachment
+  Background-clip
+  Background-origin
+  Background-color
+
+"Order matters"

@@ -1,0 +1,24 @@
+Media query
+  Apply different CSS based on the size of the viewpoint browser
+  Breakpoint
+    Where the CSS switches
+  1) Media Type
+      Optional
+      Show when
+        Screen
+        Print
+      Only 1 type at a time
+      use "and" to have multiple types & expressions  
+
+  2) Expression - AKA feature
+      0 or more
+      Min-width & Max-width
+        Nin width - from 600px+
+        Max width from 600px-
+      Go inside parens ()
+      media="all" if you want it to apply to all
+
+
+  Link to the different stylesheets based on the query
+
+  Design Mobile first

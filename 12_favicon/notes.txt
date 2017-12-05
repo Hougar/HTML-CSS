@@ -1,0 +1,8 @@
+favicon
+  the pic on your browser & app pic
+
+Clear cache
+  cache - secreting hiding
+  ask for an image and your browser already gotten it - you will just pull it up again
+  need to change your name so that you dont go through cache to upload new image
+  clear cache = get the resource again :) 

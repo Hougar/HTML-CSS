@@ -1,0 +1,25 @@
+div {
+  height: 40px;
+  width: 200px
+
+}
+
+.class1 {
+  border: 2px solid blue;
+}
+
+.class2 {
+  border: 2px solid red;
+  float: left;
+  margin: 1em;
+}
+
+.class3 {
+  border: 2px solid black;
+  clear: both;
+  /*slide under the float*/
+}
+
+.class4 {
+  border: 2px solid aqua;
+}

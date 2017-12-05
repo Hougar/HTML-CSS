@@ -1,0 +1,5 @@
+Hardware pixel: physical red green blue cell on a display
+Device independent pixel (DIP) - scaling of device pixels to match uniform reference pixel
+CSS pixel (px)- unit used for pagelayout controlled by the view port. CSS pixel : DIP = zoom level
+
+i

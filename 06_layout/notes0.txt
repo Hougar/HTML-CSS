@@ -1,0 +1,76 @@
+Box model
+  Content -> padding -> border -> margin
+
+CSS rule sets
+  1) Property: Box-sizing
+      Value: Border-box
+        Change border and padding without changing overall size of <element>
+
+  2) Property: Margin
+      Value: 0 auto
+        Center content
+
+  3) Property: Border-radius
+      Value: X X X X -  TRBL
+        Round corners
+
+  4) Property: Display
+      Value: Inline, block, inline-block, None, Flex, Inline-flex
+      Sets layout
+
+  Flexbox
+    Container
+      5) Property: Flex-direction
+          Value: Row (default), Row-reverse, Column, Column-reverse
+
+      6) Property: Flex-wrap
+          Value: No-wrap(default), Wrap, Wrap reverse,
+
+      7) Property: Justify-Content (main axis - )
+          Value: Flex-end, Center, Spacebetween, Space-around
+
+      8) Property: Align-content (cross axis | )
+          Value: Flex-start, Flex-end, Center, Stretch (default), Space-between, Space-around,
+
+    Items
+      9) Property: Align-Items (cross axis | )
+        Value: Flex-start, Flex-end, Center, Stretch(default), Space-between, Space-around
+
+    10)Property: Align-self
+
+    11)Property: Order
+
+    12) Property: Flex-grow
+
+    13) Property: Flex-shrink
+
+    14) Property: Flex basis
+
+    15) Property: Flex (short hand - grow,shrink,basis)
+
+Media queries
+
+  Media - breakpoints and printer run this CSS when this happens
+
+
+Position
+  16) Property: Top
+        Values:  Fixed, relative, Absolute
+
+  17) Property: Bottom
+        Values:  Fixed, relative, Absolute
+
+  18) Property: Right
+        Values:  Fixed, relative, Absolute
+
+  19) Property: Left
+        Values:  Fixed, relative, Absolute
+
+Float - old
+  left,right
+  Overflow,auto
+  Clear,
+  left right both
+  Use when have an image or element and text needs to wrap around it not for layout
+
+Meta viewport

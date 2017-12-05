@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  flex-flow: column;
+  flex-flow: column-reverse;
+  flex-flow: nowrap;
+  flex-flow: nowrap;
+  flex-flow: row;
+  flex-flow: row-reverse;
+  flex-flow: wrap;
+  flex-flow: wrap-reverse;
+  /* short hand property for
+      flex direction
+      float: left;x wrap
+      combines the two
+  */
+}

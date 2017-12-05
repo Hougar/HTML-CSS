@@ -1,0 +1,31 @@
+
+div {
+  border-radius: 5px;
+  /*margin: 0 auto;*/
+  height: 50px;
+  width: 50px;
+  background-color: #66fff7;
+  border: 2px dashed skyblue;
+}
+
+.one {
+  position: relative;
+  top:10px
+  left:20px;
+}
+
+.two {
+  position:absolute;
+  top: 5px;
+  left:5px;
+  background-color: red;
+}
+
+
+/*position: absolute;
+in relationship to the next element up the DOM [parent] - that also has the position property set  - if none then postion off HTML
+top:
+right:
+bottom:
+left:
+*/

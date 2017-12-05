@@ -1,0 +1,16 @@
+ul {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+a {
+  list-style: none;
+  background-color: deepskyblue;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+}
+
+a:hover {
+  background: red;
+}

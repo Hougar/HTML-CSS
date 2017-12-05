@@ -1,0 +1,28 @@
+Layout has 4 ways to think about
+  1) Display property
+    Block
+    Inline
+    Inline-block
+    None
+  2) Display property
+    Block
+    Inline
+    Inline-block
+    None
+    Flex
+      Container
+        Item - must be an immediate child  (can be nested too far ie. ">" - immediate child
+      Can set both property and values on containers AND items  s
+  3) Position
+    Static
+    Relative
+    Absolute
+    Fixed
+  4)Float - sucks
+    Left
+    Right
+
+Primary axis
+  vertical
+Cross axis
+  horizontal

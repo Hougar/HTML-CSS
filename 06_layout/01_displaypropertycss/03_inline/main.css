@@ -1,0 +1,35 @@
+p, div {
+  border: 1px solid black;
+  /*height: 20px;*/
+  border-radius: 50px;
+  /*padding: 10px;*/
+  /*margin: 10px;*/
+  display: inline;
+}
+
+span {
+  /*height: 20px;*/
+  border-radius: 50px;
+  /*color: red;*/
+  /*display: inline;*/
+}
+
+#one {
+background-color: #FF0000;
+}
+
+#two {
+background-color: #99ccff;
+}
+
+#three {
+background-color: #ccff33;
+}
+
+#four {
+background-color: #66ff66;
+}
+
+#five {
+background-color: #3366ff;
+}

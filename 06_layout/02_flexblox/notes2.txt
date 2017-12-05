@@ -1,0 +1,20 @@
+Layout with Flexbox notes
+  Container
+   Set properties
+    Display: flex - establish a container
+    Flex-direction: row, row-reverse ...
+      determine main axix
+    Flex-wrap: wrap,no-wrap
+    Justify-content: (main axis)
+    Align-items: (cross axis)
+
+  Items
+    Immediate direct children of container
+    Set properties
+      Align-self
+      Order
+      Flex-grow
+      Flex-shrink
+      Flex-basis
+      Flex
+        grow,shrink,basis 0 1 auto

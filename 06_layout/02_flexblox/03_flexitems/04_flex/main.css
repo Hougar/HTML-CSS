@@ -1,0 +1,19 @@
+/*flex a short hand proprerty for: flex: "flex-grow","flex-shrink", "flex-basis"*/
+
+body {
+  display: flex;
+}
+
+div{
+  background-color: red;
+  border: 1px solid black;
+  /*flex: 1 1 auto;*/
+  /*flex: 0 1 auto;*/
+  flex: 1 0 auto;
+  width: 100px;
+  height: 100px;
+  /*grow in proporiton, shrink*/
+}
+
+
+}

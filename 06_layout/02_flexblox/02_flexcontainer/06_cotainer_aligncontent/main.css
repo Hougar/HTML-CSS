@@ -1,0 +1,25 @@
+/*
+flex-wrap: choose whic are primary and corss axis
+  justify = main axis - set by flexflow
+  align = cross axis - set by flexflow
+    align-items: few items
+    align-content - mutiple rows
+*/
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  /*align-content: center;*/
+  /*align-content: flex-end;*/
+  align-content: flex-start;
+  /*align-content: space-around;*/
+  /*align-content: space-between;*/
+  /*align-content: stretch;*/
+}
+
+div {
+  border: 2px solid black;
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}

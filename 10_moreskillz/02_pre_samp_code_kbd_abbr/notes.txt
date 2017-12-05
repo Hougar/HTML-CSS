@@ -1,0 +1,11 @@
+HTML elements
+  <pre>
+    how ever it is laid out in HTML that is how it will printed in the browser
+  <samp>
+    output from a computer
+  <code>
+    example of code - SUM() would be wrapped in <code> </code>
+  <kbd>
+    user input - keyboard
+  <abbr>
+    when you have an abbreviation ie HTML

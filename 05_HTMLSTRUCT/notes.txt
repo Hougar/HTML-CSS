@@ -14,6 +14,8 @@ Document Structure - Terminology
     List of ALL element tags - https://developer.mozilla.org/en/docs/Web/HTML/Element
     Sectioning - semantic
       <address>
+        i.e. there is an article and you want to include information about the author use <address>
+        when youhave a som1 address use it! - contact for nearest article, typically placed in footer 
       <article>
         must always be able to stand on their own
         self contained composition
@@ -31,7 +33,13 @@ Document Structure - Terminology
         tangential content
       <footer>
         any element that accepts flow content can accept footer
-      <h1-h6>
+      <figure>
+        image
+      <figcaption>
+          description of figue
+      <h1-h6- heading>
+        Tell the order of importance 1-6 for search engines
+        set up headings first to organize the content
       <header>
         group, introductory content or navigational aids
           may contain heading elements, logo

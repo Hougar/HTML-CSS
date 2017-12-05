@@ -1,0 +1,4 @@
+Float property: Element taken from the normal document flow, placed along LEFT or RIGHT side of container, where TEXT and INLINE elements will wrap around it
+
+  - Overflow - to increase size of container to include floated elements
+  - Clear - to have other elements slide under the floated itemd  ("recognize it") and return to normal flow

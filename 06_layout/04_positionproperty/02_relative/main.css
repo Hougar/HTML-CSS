@@ -1,0 +1,29 @@
+
+div {
+  border-radius: 5px;
+  /*margin: 0 auto;*/
+  height: 50px;
+  width: 50px;
+  background-color: #66fff7;
+  border: 2px dashed skyblue;
+}
+
+.two {
+  position: relative;
+  top: 25px;
+  left:25px;
+  background-color: red;
+}
+
+.two {
+  position: static;
+}
+
+/*position: relative;
+relative to itself
+in and out of the document flow at the same time - space in the DOM is still blocked out
+top: px,rem,
+right:
+bottom:
+left:
+*/

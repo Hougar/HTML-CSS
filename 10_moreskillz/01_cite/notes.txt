@@ -1,0 +1,10 @@
+Cite
+  HTML elements
+    <q>
+      small quote within inline element
+    <blockquote>
+      large test - block level
+    <cite>
+      text representation of the source for the user
+  HTML attribute
+    cite - only in your code not for your user

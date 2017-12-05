@@ -1,0 +1,38 @@
+=
+html {
+    font-size: 2rem;
+}
+
+ul {
+    list-style:circle;
+}
+
+li {
+    border: 1px solid red;
+    border-radius: 50px;
+    display: inline-table;
+    /*padding: 0.5rem;*/
+}
+a {
+/*border: 1px solid red;*/
+/*display: inline-block;*/
+padding: 10px
+}
+
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: fuchsia;
+}
+
+li:hover {
+  background-color: green;
+}
+
+li:active {
+  background-color: hotpink;
+}
+
+li:

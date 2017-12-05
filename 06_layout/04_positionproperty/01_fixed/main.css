@@ -1,0 +1,30 @@
+div {
+  border-radius: 5px;
+}
+
+.one {
+
+  margin-left: 10px;
+  height: 1500px;
+  width: 150px;
+  background-color: #66fff7;
+  border: 2px dashed skyblue;
+}
+
+.two {
+  position: fixed;
+  top: 20px;
+  left: 10px;
+  height: 76px;
+  width: 76px;
+  background-color: red;
+}
+
+/*position: fixed;
+top: px,rem,
+right:
+bottom:
+left:
+taked out of the DOM
+
+*/

@@ -1,0 +1,17 @@
+svg
+  <use>
+    use this element when you have a specific path you are bringing in your svg's fromm
+    <use xlink:href="icons.svg#svgsid"></use>
+      icons - svg file name
+      #svgsid - the id attribute ion the svggpage ( <symbol id="svgsid">)
+
+html
+  forms
+    <fieldset>
+    <legend>
+      Puts the legend in the border of the fieldset
+
+
+  rem - default browser size
+
+  em - parent tag size 

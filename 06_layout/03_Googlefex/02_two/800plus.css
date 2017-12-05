@@ -1,0 +1,16 @@
+body {
+  height: 200px;
+}
+
+
+.class1 {
+  width: 60%;
+}
+
+.class2 {
+  width: 20%;
+  order: -1;
+}
+
+.class3 {
+  width: 20%;

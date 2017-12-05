@@ -1,0 +1,19 @@
+Bitmap/Raster
+  - Pixels of different colour's
+  - Resolution = # of pixels on a screen
+  - Colour depth = number of bits per pixel
+  - formats:
+    - jpg, jpeg
+    - png
+    - gif
+    - tiff
+    - bmp
+  - Good for real life photos!
+
+Vector
+  - Drawing with vectors
+  - Mathmatical forumala - less detail - good for icons!
+  - Never get pixelization :)
+  - no colour gradiation
+  - formats:
+    - svg

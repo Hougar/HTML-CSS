@@ -1,0 +1,12 @@
+.c0 {
+  fill: red;
+  stroke: black;
+  color: pink;
+  border: 1px solid black;
+  stroke: 1rem;
+}
+
+.c0:hover {
+  fill: green;
+  color: green;
+}

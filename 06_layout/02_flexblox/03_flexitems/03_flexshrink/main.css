@@ -1,0 +1,22 @@
+/*counter of flex-grow*/
+body {
+  display: flex;
+}
+
+div {
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+}
+
+.a {
+  flex-shrink: 1
+}
+
+.b {
+  flex-shrink: 2
+}
+
+.c {
+  flex-shrink: 1
+}

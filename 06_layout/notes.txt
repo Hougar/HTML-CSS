@@ -1,0 +1,18 @@
+Layout  vs structuring
+  Resources
+    - learn lay out .com
+    - css tricks flex box
+  Box property
+  box-sizing: border-box
+  rounding & centering
+Display property
+  Block
+    begins a new line
+    takes up the entire width
+    you can nest block and inline elements
+  inline
+    does NOT begin a new line
+    takes up as little width as possible
+    you can nest inline elements 
+  inline-block
+  none

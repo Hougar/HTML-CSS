@@ -1,0 +1,32 @@
+div {
+  width: 100px;
+  height:100px;
+  background-color: red;
+  margin: 10px;
+  font-size: 0.75rem;
+}
+
+.default {
+  /*
+  block elements - <div>
+    respect all margins set
+    force a line break after a block elemen
+  */
+}
+
+.displayinline {
+  display: inline;
+  /*inline elements -<span>
+    respect left and right margins but not top & bottom
+    cannot have width and height set
+    allow other elements to sit on their left and right
+  */
+}
+
+.displayinlineblock {
+  display: inline-block;
+  /*
+    inline-block
+      repect all margins, height and width
+  */
+}

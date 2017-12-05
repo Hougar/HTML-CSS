@@ -1,0 +1,13 @@
+nav {
+  width: 15%;
+}
+
+main {
+  width: 85%;
+  border: 4px solid black;
+  display: flex;
+}
+
+ul {
+  flex-flow: column nowrap;
+}

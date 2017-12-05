@@ -1,0 +1,4 @@
+Font awesome
+  Pictures - in a font! :)
+  http://fontawesome.io/cheatsheet/
+  For performance - dont download the entire font awesome css - only what you need! 

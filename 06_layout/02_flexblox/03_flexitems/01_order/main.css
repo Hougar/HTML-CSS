@@ -1,0 +1,32 @@
+/*
+Property:order
+Values: any interger Z (+/-)
+something which has orderspecified gets put in front of items which do not have order
+
+*/
+
+body {
+  display: flex;
+}
+
+div {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+
+.aa {
+  order: 4
+}
+
+.bb{
+  order: 3
+}
+
+.cc{
+  order: 2
+}
+
+.dd{
+  order: 1
+}
