@@ -1,0 +1,17 @@
+Transition
+  Between two points (a -> b)
+  Property & Value
+    transition-property: all/bacground-color/text etc - where to apply the transition
+    transition-duration: 400ms
+    transition-timing-function:ease-in-out - linear change
+    transition-delay: 1ms - how long until it starts
+Animations
+  do it between >= 2 points ( a -> b -> c...)
+  Property & Value
+    animation-duration: 500ms;
+    animation-timing-function:ease;
+    animiation-delay: 300ms;
+    animation-iteration-count:once/twice/infinite; - how many times should it run/loop?
+    animation-direction: reverse; start from the end and go back i.e. flashing
+    animation-fill-mode: forwards; when we stop the animation how do we want it to end up;
+    animation-play-state: runnings; - run or dont run (pause)

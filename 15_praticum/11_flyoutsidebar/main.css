@@ -1,0 +1,50 @@
+html,body,input,label,div,ol,li,input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+input[type="checkbox"] {
+ display: none;
+}
+
+#sideybar {
+  position: fixed;
+  left: -20rem;
+  height: 100vh;
+  width: 10vw;
+  background-color: lightblue;
+  border-right: 2px solid blue;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+
+}
+
+ol {
+  margin-top: 1rem;
+}
+
+input[type="checkbox"]:checked ~ #sideybar{
+  left: 0;
+}
+
+input[type="checkbox"]:checked ~ #sideybar{
+  left: 0;
+}
+
+#btn {
+   border: 2px solid green;
+}
+
+input[type="checkbox"]:checked + #btn:after{
+  content: "HIDE IT";
+  position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: white;
+border: 2px solid green;
+  }

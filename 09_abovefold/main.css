@@ -54,7 +54,10 @@ header {
 }
 
 .c0:hover {
-  fill: green;
+  transition-property: all;
+  transition-timing-function:ease;
+  transition-duration: 600ms;
+  background-color:grey;
 }
 
 
